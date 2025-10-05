@@ -18,4 +18,22 @@
 
 body {
     font-size: 14px;
+    background-color: var(--Cream);
+    font-family: "frauces";
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+#order {
+  background-color: var(--White);
 }

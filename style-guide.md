@@ -1,40 +1,40 @@
-# Front-end Style Guide
+# Guía de estilo front-end
 
-## Layout
+## Disposición
 
-The designs were created to the following widths:
+Los diseños fueron creados para los siguientes anchos:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Móvil: 375px
+- Escritorio: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+> 💡 Estos son solo los tamaños de diseño. Asegúrese de que el contenido responda y cumpla con los requisitos de WCAG probando la gama completa de tamaños de pantalla de 320px a pantallas grandes.
 
-## Colors
+## Colores
 
-### Primary
+### Primario
 
-- Green 500: hsl(158, 36%, 37%)
-- Green 700: hsl(158, 42%, 18%)
+- Verde 500: HSL (158, 36%, 37%)
+- Verde 700: HSL (158, 42%, 18%)
 
 ### Neutral
 
-- Black: hsl(212, 21%, 14%)
-- Grey: hsl(228, 12%, 48%)
-- Cream: hsl(30, 38%, 92%)
-- White: hsl(0, 0%, 100%)
+- Negro: HSL (212, 21%, 14%)
+- Gray: HSL (228, 12%, 48%)
+- Crema: HSL (30, 38%, 92%)
+- White: HSL (0, 0%, 100%)
 
-## Typography
+## Tipografía
 
-### Body Copy
+### Copia corporal
 
-- Font size (paragraph): 14px
+- Tamaño de fuente (párrafo): 14px
 
-### Font
+### fuente
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
+- Familia: [Montserrat] (https://fonts.google.com/specimen/montserrat)
+- Pesos: 500, 700
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
+- Familia: [Fraunces] (https://fonts.google.com/specimen/fraunces)
+- Pesos: 700
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+> 💎 [Actualizar a Pro] (https://www.frontentmentor.io/pro?ref=style-guide) para el acceso a archivos de diseño para ver todos los detalles de diseño y obtener experiencia práctica usando un flujo de trabajo profesional con herramientas como Figma.
