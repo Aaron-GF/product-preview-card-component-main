@@ -38,7 +38,7 @@ main {
 
 #image {
   flex: 1;
-  background: url("/images/image-product-desktop.jpg") no-repeat center/cover;
+  background: url("./images/image-product-desktop.jpg") no-repeat center/cover;
 }
 
 #order {
@@ -118,7 +118,7 @@ button {
   }
 
   #image {
-    background: url("/images/image-product-mobile.jpg") no-repeat center/cover;
+    background: url("./images/image-product-mobile.jpg") no-repeat center/cover;
     min-height: 400px;
   }
 }
