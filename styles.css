@@ -30,75 +30,74 @@ body {
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 900px;
-  border-radius: 15px;
+  max-width: 700px;
+  border-radius: 10px;
   overflow: hidden;
-  width: 90%;
+  width: 94%;
 }
 
 #image {
   flex: 1;
-  background: url('/images/image-product-desktop.jpg') no-repeat center/cover;
-  }
+  background: url("/images/image-product-desktop.jpg") no-repeat center/cover;
+}
 
 #order {
   background-color: var(--White);
-  padding: 2rem 3rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
   justify-content: space-evenly;
   flex: 1;
 
   > span {
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.4rem;
   }
 
   h1 {
     color: var(--Black);
     font-family: "Fraunces", serif;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   p {
-    line-height: 1.5rem;
+    line-height: 1.4rem;
   }
 
   .price {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     span:nth-child(1) {
       color: var(--Green-500);
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: "Fraunces", serif;
     }
 
     span:nth-child(2) {
       text-decoration: line-through;
-      font-size: 1.2rem;
     }
   }
 }
 
 button {
   background-color: var(--Green-500);
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 700;
   width: 100%;
   color: var(--White);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  padding: 1.5rem 0;
-  border-radius: 15px;
+  padding: 1rem 0;
+  border-radius: 10px;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: none;
 
   img {
-    width: 1.4rem;
+    width: 1rem;
   }
 
   &:hover {
@@ -107,7 +106,7 @@ button {
 }
 
 /* Responsive */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   body {
     padding: 5rem 0;
     height: auto;
@@ -115,10 +114,11 @@ button {
 
   main {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 5rem;
   }
 
   #image {
-  background: url('/images/image-product-mobile.jpg') no-repeat center/cover;
-  min-height: 400px;
-}
+    background: url("/images/image-product-mobile.jpg") no-repeat center/cover;
+    min-height: 400px;
+  }
 }
